@@ -1,0 +1,66 @@
+body{
+    font-family:'Montserrat',sans-serif;
+    text-align:center;
+}
+hr{
+  background-color: white;
+  width: 10%;
+  border-color: black;
+  border-style: dotted none none;
+  height: 0;
+  border-width: 5px;
+  margin: 0 auto
+}
+
+/*navbar*/
+.navbar-brand{
+    color:white;
+    font-weight:600;
+}
+.navbar-brand:hover{
+    color:white;
+}
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    color:#FF7000;
+    font-size:1.02rem;
+}
+/*home*/
+#Home{
+    background-color:white;
+    margin-bottom:10px;
+}
+.front-pg-img{
+    position:relative;
+    width:70%;
+}
+/*services*/
+#Services{
+    margin-top:10px;
+    background-color:white;}
+.carousel-inner {
+    text-align: center;
+  }
+.carousel-caption{
+    color:red;
+    position:absolute;
+    bottom:0;
+    display:block;
+    z-index: 0;
+}
+.carousel-Img{
+    width:40%;
+    padding: 10px;
+}
+.grey-button {
+    background-color: grey;
+  }
+
+/*Contacts*/
+#Contacts{background-color: aquamarine;}
+/*Footer*/
+#Footer{
+    background-color: beige;
+}
